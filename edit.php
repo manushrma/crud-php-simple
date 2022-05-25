@@ -17,9 +17,9 @@ if(isset($_POST['update']))
 		if(empty($name)) {
 			echo "<font color='red'>Name field is empty.</font><br/>";
 		}
-		
+		// changing this color cause i didn't like
 		if(empty($age)) {
-			echo "<font color='red'>Age field is empty.</font><br/>";
+			echo "<font color='yellow'>Age field is empty .</font><br/>";
 		}
 		
 		if(empty($email)) {
