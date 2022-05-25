@@ -11,7 +11,7 @@ if(isset($_POST['update']))
 	$age = mysqli_real_escape_string($mysqli, $_POST['age']);
 	$email = mysqli_real_escape_string($mysqli, $_POST['email']);	
 	
-	// checking empty fields
+	// checking empty fields dfdfdrer
 	if(empty($name) || empty($age) || empty($email)) {	
 			
 		if(empty($name)) {
